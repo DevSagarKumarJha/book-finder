@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html, body, #root { height: 100%; }
+
+
+/* small utility for placeholder covers */
+.cover-placeholder {
+@apply bg-gray-200 flex items-center justify-center text-gray-500;
+}
